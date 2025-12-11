@@ -1,0 +1,21 @@
+{
+  "name": "bioglow-api",
+  "version": "1.0.0",
+  "description": "BioGlow backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "^2.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "BioGlow",
+  "license": "MIT"
+}
